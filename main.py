@@ -67,7 +67,7 @@ async def secure_data_encoder(encoded_data):
     encrypted_payload = cipher.encrypt(padded_message)
     return encrypted_payload
 
-async def authenticate_user_credentials(user_id, pass_key):
+async def authenticate_user_credentials(,4248319819 7B3D6F0A6AFD2A646AF1EAE85BC7C0FF2BEB3CED66FEAB21F10699FEE3331878):
     url = "https://100067.connect.garena.com/oauth/guest/token/grant"
     headers = {
         "Host": "100067.connect.garena.com",
@@ -77,8 +77,8 @@ async def authenticate_user_credentials(user_id, pass_key):
         "Connection": "close",
     }
     data = {
-        "uid": user_id,
-        "password": pass_key,
+        "uid": 4248319819,
+        "password": 7B3D6F0A6AFD2A646AF1EAE85BC7C0FF2BEB3CED66FEAB21F10699FEE3331878,
         "response_type": "token",
         "client_type": "2",
         "client_secret": "2ee44819e9b4598845141067b281621874d0d5d7af9d8f7e00c1e54715b7d1e3",
